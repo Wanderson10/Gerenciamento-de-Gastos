@@ -1,0 +1,102 @@
+.formulario{
+    width: 250px;
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   box-shadow: 3px 3px 13px 1px rgb(146 146 146);
+}
+
+.box0{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap
+
+}
+
+.tituloDescricao{
+ padding-right: 154px;
+ padding-bottom: 15px;
+}
+
+
+ .input1{
+    width: 220px;
+    height: 30px;
+    border: none;
+    background-color:#E9ECEF ;
+    border-radius: 3px;
+    
+ }
+
+ .box1{
+    margin-top: 24px;
+    display: flex; 
+   justify-content: space-around;
+ }
+
+.tituloSelect{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left:  12px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.tituloValor{
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 68px;
+
+}
+
+
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.input2{
+    height: 25px;
+    width: 100px; 
+    background-color:#E9ECEF ;
+    border: none;
+    border-radius: 3px;
+}
+
+.tipoValor{
+    width: 100px;
+    border: none;
+    background-color:#E9ECEF ;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.botaoForm{
+    width: 220px;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    color: aliceblue;
+    background-color: #FD377E;
+    margin-left: 15px;
+    transition: all 0.4s;
+}
+
+.botaoForm:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: hotpink;
+
+}
+
+
+input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

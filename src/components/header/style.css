@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-around;
+     height: 70px;
+     width: 100%;
+    gap: 80px;
+    align-items: center;
+    box-shadow: 3px 3px 5px 1px rgb(194, 194, 194);
+}
+
+figure{
+   
+    width: 300px;
+    padding-left: 65px;
+    box-sizing: border-box;
+   
+}
+
+.caixaBotao{
+    
+    width: 200px;
+    display: flex;
+
+    box-sizing: border-box
+   
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/src/components/fontes/nunito/Nunito-Bold.ttf");
+}
+
+.botaoHeader{
+    background-color: rgb(255, 255, 255);
+    font-family:"Nunito" ;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+

@@ -1,0 +1,21 @@
+.boxValorTotal{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    background-color: #E34981;
+    border-radius: 3px;
+}
+
+
+h3{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.todes{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 400;
+}

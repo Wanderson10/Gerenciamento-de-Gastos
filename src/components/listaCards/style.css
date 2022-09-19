@@ -1,0 +1,94 @@
+.boxPrincipal{
+   margin-left: 60px;
+    
+    
+   
+   
+}
+
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/src/components/fontes/nunito/Nunito-Bold.ttf");
+}
+
+.buttaoTodos{
+    background-color: #FD377E;
+    color: aliceblue;
+}
+.buttaoTodos:hover{
+    background-color: hotpink;
+
+}
+.buttao{
+
+    font-family: "Nunito" ;
+    font-weight: 300;
+    border: none;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: all 0.2s;
+    
+}
+.buttao:hover{
+    transform: scale(1.1);
+}
+
+.tituloCards{
+  font-size: 16px;
+  
+}
+
+.listaCards{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.tituloLista{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.boxButtons{
+    display: flex;
+    align-items: center;
+    
+}
+
+.cardsProntos{
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
+    border-radius:5px ;
+}
+
+.descricaoTransacao{
+    color: black;
+}
+
+.butaoDelete {
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #FD377E;
+    color: aliceblue;
+    transition: all 0.4s;
+}
+
+
+.butaoDelete:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: hotpink;
+
+}
